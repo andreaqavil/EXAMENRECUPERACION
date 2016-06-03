@@ -186,7 +186,7 @@ PAGINA VEHICULO
 tag SECTION
 *******************/
 
-#vehiculos-line{
+#buques-line{
 	font-family: 'Bangers', cursive;
 	margin:15px 0; /*margen de arriba y abajo 15px y a los lados sin margen*/
 	font-size: 3em;
@@ -195,13 +195,13 @@ tag SECTION
 	color: #003333;
 }
 
-#vehiculos {
+#buques {
 	margin:0;
 	padding:0;
 	list-style: none;
 }
 
-#vehiculos li{
+#buques li{
 	float:left;
 	max-width:25%;
 	margin:2.5%;
@@ -209,7 +209,7 @@ tag SECTION
 	color: #003333;
 }
 
-#vehiculos li a p {
+#buques li a p {
 	margin:0;
 	padding:5%;
 	font-size: 1.75em;

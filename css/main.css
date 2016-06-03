@@ -1,0 +1,271 @@
+/********************
+GENERAL
+********************/
+body{
+	background-image: url("../img/logo.jpg");
+}
+
+
+a {
+	text-decoration: none;
+	color: #448aff;
+}
+#wrapper {
+	max-width:940px;
+	margin:0 auto;
+	padding: 0 10%;
+	background: #546e7a;
+}
+
+/*******************
+HEADING
+*******************/
+
+#logoimg{
+	max-width:7%;
+}
+
+#logo{
+	text-align:center;
+	margin:3;
+}
+
+header{
+	float:left;
+	margin: 0 0 30px 0;
+	padding:5px 0 0 0;
+	width: 100%;
+background: white;
+border-color:  #009688;
+}
+
+h1{
+	font-family: 'Verdana', cursive;
+	margin:15px 1; /*margen de arriba y abajo 15px y a los lados sin margen*/
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 0.15em;
+	color: #190174;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 10px;
+	color: black;
+	font-weight: none;
+}
+
+img {
+max-width: 100%;
+}
+
+#galeria {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+
+#galeria li{
+	float:left;
+	width:60%;
+	margin:7.0%;
+	background-color: none;
+	color: red;
+}
+
+#galeria li p {
+	text-align: center;
+	margin:0;
+	padding:1%;
+	font-size: 1em;
+	color:white;
+}
+
+/*******************
+NAVIGATION
+*******************/
+nav {background-color: #000000;}
+
+nav a {
+font-weight:800;
+padding: 5px 90px;
+}
+
+nav a.selected {
+	color: red;
+}
+
+nav a:hover{
+	color: #424242;}
+}
+
+nav ol {
+	list-style: none;
+	margin:0 10px;
+	padding: 0;
+}
+
+nav li {display:inline-block;}
+
+/*******************
+FOOTER
+*******************/
+
+footer{
+	clear:both;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color:#190174;
+}
+
+footer a img.social-icon
+{
+	width:30px;
+	height: 30px;
+	margin:0 5px;
+}
+
+
+
+/*******************
+PAGINA ABOUT
+tag SECTION
+*******************/
+
+.profile-photo{
+	display:block;
+	max-width: 900px;
+	margin:0 auto 30px;
+	border-radius:100%;
+}
+
+/*******************
+PAGINA CONTACT
+tag SECTION
+*******************/
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+
+.contact-info{
+	list-style: none;
+	padding:0;
+	margin:0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display:block;
+	min-height:20px;
+	background-repeat:no-repeat;
+	background-size: 20px 20px;
+	padding:0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-photo{
+	display:block;
+	max-width: 250px;
+	margin:0 auto 30px;
+	border-radius:100%;
+}
+
+/*******************
+PAGINA VEHICULO
+tag SECTION
+*******************/
+
+#vehiculos-line{
+	font-family: 'Bangers', cursive;
+	margin:15px 0; /*margen de arriba y abajo 15px y a los lados sin margen*/
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 0.8em;
+	color: #003333;
+}
+
+#vehiculos {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+#vehiculos li{
+	float:left;
+	max-width:25%;
+	margin:2.5%;
+	background-color: none;
+	color: #003333;
+}
+
+#vehiculos li a p {
+	margin:0;
+	padding:5%;
+	font-size: 1.75em;
+	color:red;
+}
+
+.buque-photo{
+	display:block;
+	margin:0 auto 30px;
+	border-radius:100%;
+	border-top-left-radius: 
+}
+
+#overlay
+{
+	background: rgba(0,0,0,0.7); /*El último valor es opacity(opacidad)*/
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left:0;
+	text-align: center;
+	display: none;
+}
+
+
+#overlay img
+{
+	margin-top: 10%;
+}
+
+#overlay p
+{
+	color: white;
+}
+
+#overlay
+{
+	margin-top: 10%;
+}
+
+/****************************
+Menu para mobiles con JQuery
+****************************/
+@media (min-width: 320px) and (max-width: 568px)
+{
+	#menu ul
+	{
+		display: none;
+	}
+}
+
+@media (min-width: 568px)
+{
+	#menu select, #menu button
+	{
+		display:none;
+	}
+}

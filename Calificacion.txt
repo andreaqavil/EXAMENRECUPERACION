@@ -1,0 +1,11 @@
+Detalle Calificacion  18/50
+Pagina de Servicios (5 Puntos): 0 Puntos. Esto era muy facil, tan solo una pagina estatica informativa. No tienen nada, 0 finito.
+Pagina de Arribo de Buques con Arreglo de Objetos (10 Puntos): 3 Puntos. Siga el requisito. Necesitaba imprimir desde JS la lista de buques en el contendor div. Esta informacion debia esta en un arreglo de objetos buque. Les puse este puntaje xq al menos pusieron info estatica pero ese no era el requisito.
+Busqueda de buques en 3 criterios(carga, bandera, nombre) (15 Puntos): 0 Puntos. No funciona para nada. Ni siquiera una busqueda simple. Ni el boton de la interfaz grafica.
+Galeria con JQuery (10 Puntos): 10 Puntos. Les puse 10 puntos aunque les falta la descipcion de cada imagen.
+Calidad de código (comentarios, código que ejecute, ausencia de errores, uso de git, estetica) (10 Puntos): 5 Puntos. Les faltan comentarios, el codigo no ejecuta bien y tienen errores de consola.
+
+Comentarios Profesor:
+No hicieron casi nada de JS que es donde estaba el fuerte del examen y les avise de antemano que seria examen con fuerte componente de programacion en JavaScript.
+No se puede comentar mucho porque casi no tienen nada.
+Mas empeno en la proxima iteracion.
